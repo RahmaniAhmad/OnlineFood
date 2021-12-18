@@ -1,0 +1,66 @@
+.item-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  max-height: 50%;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+.item-container .item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 8px;
+  border: solid 1px #333;
+  background-color: #2e2e2e;
+}
+.item-container .item button {
+  width: 100px;
+  right: 0;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.item-container .item .item-info {
+  display: flex;
+  justify-content: space-around;
+}
+.item-container .item .item-info .text {
+  display: flex;
+  flex-direction: column;
+}
+.item-container .item .item-info .text h2 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.item-container .item .item-info .text span {
+  color: #aaaaaa;
+  text-align: justify;
+  display: block;
+  margin-bottom: 8px;
+}
+.item-container .item .item-info .image {
+  margin-left: 16px;
+}
+.item-container .item .item-info .image img {
+  background-color: white;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+}
+.item-container .close {
+  width: 40px;
+  padding: 4px 2px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
